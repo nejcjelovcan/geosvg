@@ -1,0 +1,26 @@
+.arrow {
+  color: #aaa;
+  float: right;
+  position: relative;
+  left: 2.2rem;
+}
+
+.settingsPair {
+  padding: 0.5rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.settingsPair > * {
+  flex: 0 0;
+}
+
+.settingsPair > label {
+  text-align: right;
+  padding-right: 0.5rem;
+}
+
+.settingsPair > input {
+  margin-right: 0.5rem;
+}

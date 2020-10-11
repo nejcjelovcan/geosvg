@@ -1,0 +1,1952 @@
+[
+  {
+    "name": "Afghanistan",
+    "nameLong": "Afghanistan",
+    "iso": "AF",
+    "precisions": {
+      "110m": 2711,
+      "50m": 14360,
+      "10m": 58588
+    }
+  },
+  {
+    "name": "Åland",
+    "nameLong": "Åland Islands",
+    "iso": "AX",
+    "precisions": {
+      "50m": 2055,
+      "10m": 18217
+    }
+  },
+  {
+    "name": "Albania",
+    "nameLong": "Albania",
+    "iso": "AL",
+    "precisions": {
+      "110m": 959,
+      "50m": 4081,
+      "10m": 21655
+    }
+  },
+  {
+    "name": "Algeria",
+    "nameLong": "Algeria",
+    "iso": "DZ",
+    "precisions": {
+      "110m": 2462,
+      "50m": 13744,
+      "10m": 48164
+    }
+  },
+  {
+    "name": "Andorra",
+    "nameLong": "Andorra",
+    "iso": "AD",
+    "precisions": {
+      "50m": 760,
+      "10m": 2009
+    }
+  },
+  {
+    "name": "Angola",
+    "nameLong": "Angola",
+    "iso": "AO",
+    "precisions": {
+      "110m": 3070,
+      "50m": 12705,
+      "10m": 65677
+    }
+  },
+  {
+    "name": "Argentina",
+    "nameLong": "Argentina",
+    "iso": "AR",
+    "precisions": {
+      "110m": 4728,
+      "50m": 40195,
+      "10m": 188689
+    }
+  },
+  {
+    "name": "Armenia",
+    "nameLong": "Armenia",
+    "iso": "AM",
+    "precisions": {
+      "110m": 832,
+      "50m": 5482,
+      "10m": 16672
+    }
+  },
+  {
+    "name": "Aruba",
+    "nameLong": "Aruba",
+    "iso": "AW",
+    "precisions": {
+      "50m": 428,
+      "10m": 1099
+    }
+  },
+  {
+    "name": "Australia",
+    "nameLong": "Australia",
+    "iso": "AU",
+    "precisions": {
+      "110m": 9785,
+      "50m": 70279,
+      "10m": 544685
+    }
+  },
+  {
+    "name": "Austria",
+    "nameLong": "Austria",
+    "iso": "AT",
+    "precisions": {
+      "110m": 1495,
+      "50m": 9670,
+      "10m": 42640
+    }
+  },
+  {
+    "name": "Azerbaijan",
+    "nameLong": "Azerbaijan",
+    "iso": "AZ",
+    "precisions": {
+      "110m": 1758,
+      "50m": 9861,
+      "10m": 36660
+    }
+  },
+  {
+    "name": "Bahamas",
+    "nameLong": "Bahamas",
+    "iso": "BS",
+    "precisions": {
+      "110m": 437,
+      "50m": 10416,
+      "10m": 62975
+    }
+  },
+  {
+    "name": "Bahrain",
+    "nameLong": "Bahrain",
+    "iso": "BH",
+    "precisions": {
+      "50m": 540,
+      "10m": 2129
+    }
+  },
+  {
+    "name": "Bangladesh",
+    "nameLong": "Bangladesh",
+    "iso": "BD",
+    "precisions": {
+      "110m": 1457,
+      "50m": 14510,
+      "10m": 86484
+    }
+  },
+  {
+    "name": "Barbados",
+    "nameLong": "Barbados",
+    "iso": "BB",
+    "precisions": {
+      "50m": 399,
+      "10m": 1465
+    }
+  },
+  {
+    "name": "Belarus",
+    "nameLong": "Belarus",
+    "iso": "BY",
+    "precisions": {
+      "110m": 1802,
+      "50m": 11339,
+      "10m": 45638
+    }
+  },
+  {
+    "name": "Belgium",
+    "nameLong": "Belgium",
+    "iso": "BE",
+    "precisions": {
+      "110m": 715
+    }
+  },
+  {
+    "name": "Belize",
+    "nameLong": "Belize",
+    "iso": "BZ",
+    "precisions": {
+      "110m": 858,
+      "50m": 2553,
+      "10m": 19425
+    }
+  },
+  {
+    "name": "Benin",
+    "nameLong": "Benin",
+    "iso": "BJ",
+    "precisions": {
+      "110m": 1019,
+      "50m": 5243,
+      "10m": 23687
+    }
+  },
+  {
+    "name": "Bhutan",
+    "nameLong": "Bhutan",
+    "iso": "BT",
+    "precisions": {
+      "110m": 566,
+      "50m": 3722,
+      "10m": 12644
+    }
+  },
+  {
+    "name": "Bolivia",
+    "nameLong": "Bolivia",
+    "iso": "BO",
+    "precisions": {
+      "110m": 2514,
+      "50m": 15684,
+      "10m": 60570
+    }
+  },
+  {
+    "name": "Bosnia and Herz.",
+    "nameLong": "Bosnia and Herzegovina",
+    "iso": "BA",
+    "precisions": {
+      "110m": 779
+    }
+  },
+  {
+    "name": "Botswana",
+    "nameLong": "Botswana",
+    "iso": "BW",
+    "precisions": {
+      "110m": 1663,
+      "50m": 8204,
+      "10m": 38479
+    }
+  },
+  {
+    "name": "Brazil",
+    "nameLong": "Brazil",
+    "iso": "BR",
+    "precisions": {
+      "110m": 8195,
+      "50m": 72133,
+      "10m": 445857
+    }
+  },
+  {
+    "name": "Brunei",
+    "nameLong": "Brunei Darussalam",
+    "iso": "BN",
+    "precisions": {
+      "110m": 376,
+      "50m": 2160,
+      "10m": 6141
+    }
+  },
+  {
+    "name": "Bulgaria",
+    "nameLong": "Bulgaria",
+    "iso": "BG",
+    "precisions": {
+      "110m": 1160,
+      "50m": 6436,
+      "10m": 34130
+    }
+  },
+  {
+    "name": "Burkina Faso",
+    "nameLong": "Burkina Faso",
+    "iso": "BF",
+    "precisions": {
+      "110m": 1598,
+      "50m": 9400,
+      "10m": 43599
+    }
+  },
+  {
+    "name": "Burundi",
+    "nameLong": "Burundi",
+    "iso": "BI",
+    "precisions": {
+      "110m": 484,
+      "50m": 2877,
+      "10m": 12201
+    }
+  },
+  {
+    "name": "Cabo Verde",
+    "nameLong": "Republic of Cabo Verde",
+    "iso": "CV",
+    "precisions": {
+      "50m": 3524,
+      "10m": 16500
+    }
+  },
+  {
+    "name": "Cambodia",
+    "nameLong": "Cambodia",
+    "iso": "KH",
+    "precisions": {
+      "110m": 742,
+      "50m": 8599,
+      "10m": 48015
+    }
+  },
+  {
+    "name": "Cameroon",
+    "nameLong": "Cameroon",
+    "iso": "CM",
+    "precisions": {
+      "110m": 2403,
+      "50m": 12562,
+      "10m": 56276
+    }
+  },
+  {
+    "name": "Canada",
+    "nameLong": "Canada",
+    "iso": "CA",
+    "precisions": {
+      "110m": 22464,
+      "50m": 442905,
+      "10m": 2645264
+    }
+  },
+  {
+    "name": "Central African Rep.",
+    "nameLong": "Central African Republic",
+    "iso": "CF",
+    "precisions": {
+      "110m": 2455,
+      "50m": 11654,
+      "10m": 69084
+    }
+  },
+  {
+    "name": "Chad",
+    "nameLong": "Chad",
+    "iso": "TD",
+    "precisions": {
+      "110m": 2036,
+      "50m": 10771,
+      "10m": 47591
+    }
+  },
+  {
+    "name": "Chile",
+    "nameLong": "Chile",
+    "iso": "CL",
+    "precisions": {
+      "110m": 4378,
+      "50m": 77729,
+      "10m": 687857
+    }
+  },
+  {
+    "name": "China",
+    "nameLong": "China",
+    "iso": "CN",
+    "precisions": {
+      "110m": 9273,
+      "50m": 99818,
+      "10m": 544589
+    }
+  },
+  {
+    "name": "Colombia",
+    "nameLong": "Colombia",
+    "iso": "CO",
+    "precisions": {
+      "110m": 3971,
+      "50m": 23587,
+      "10m": 128381
+    }
+  },
+  {
+    "name": "Comoros",
+    "nameLong": "Comoros",
+    "iso": "KM",
+    "precisions": {
+      "50m": 1422,
+      "10m": 5136
+    }
+  },
+  {
+    "name": "Congo",
+    "nameLong": "Republic of the Congo",
+    "iso": "CG",
+    "precisions": {
+      "110m": 1992,
+      "50m": 11666,
+      "10m": 52751
+    }
+  },
+  {
+    "name": "Costa Rica",
+    "nameLong": "Costa Rica",
+    "iso": "CR",
+    "precisions": {
+      "110m": 1475,
+      "50m": 4850,
+      "10m": 32008
+    }
+  },
+  {
+    "name": "Côte d'Ivoire",
+    "nameLong": "Côte d'Ivoire",
+    "iso": "CI",
+    "precisions": {
+      "110m": 1858,
+      "50m": 11004,
+      "10m": 62436
+    }
+  },
+  {
+    "name": "Croatia",
+    "nameLong": "Croatia",
+    "iso": "HR",
+    "precisions": {
+      "110m": 1719,
+      "50m": 14018,
+      "10m": 90268
+    }
+  },
+  {
+    "name": "Cuba",
+    "nameLong": "Cuba",
+    "iso": "CU",
+    "precisions": {
+      "110m": 1726,
+      "50m": 11832,
+      "10m": 105504
+    }
+  },
+  {
+    "name": "Curaçao",
+    "nameLong": "Curaçao",
+    "iso": "CW",
+    "precisions": {
+      "50m": 426,
+      "10m": 1809
+    }
+  },
+  {
+    "name": "Cyprus",
+    "nameLong": "Cyprus",
+    "iso": "CY",
+    "precisions": {
+      "110m": 639,
+      "50m": 1989,
+      "10m": 11862
+    }
+  },
+  {
+    "name": "Czechia",
+    "nameLong": "Czech Republic",
+    "iso": "CZ",
+    "precisions": {
+      "110m": 1432,
+      "50m": 8691,
+      "10m": 35955
+    }
+  },
+  {
+    "name": "Dem. Rep. Congo",
+    "nameLong": "Democratic Republic of the Congo",
+    "iso": "CD",
+    "precisions": {
+      "110m": 4947,
+      "50m": 22212,
+      "10m": 112797
+    }
+  },
+  {
+    "name": "Denmark",
+    "nameLong": "Denmark",
+    "iso": "DK",
+    "precisions": {
+      "110m": 1003,
+      "50m": 11376,
+      "10m": 83338
+    }
+  },
+  {
+    "name": "Djibouti",
+    "nameLong": "Djibouti",
+    "iso": "DJ",
+    "precisions": {
+      "110m": 632,
+      "50m": 2104,
+      "10m": 8215
+    }
+  },
+  {
+    "name": "Dominica",
+    "nameLong": "Dominica",
+    "iso": "DM",
+    "precisions": {
+      "50m": 433,
+      "10m": 3071
+    }
+  },
+  {
+    "name": "Dominican Rep.",
+    "nameLong": "Dominican Republic",
+    "iso": "DO",
+    "precisions": {
+      "110m": 1089,
+      "50m": 4084,
+      "10m": 22700
+    }
+  },
+  {
+    "name": "Ecuador",
+    "nameLong": "Ecuador",
+    "iso": "EC",
+    "precisions": {
+      "110m": 1368,
+      "50m": 13248,
+      "10m": 59884
+    }
+  },
+  {
+    "name": "Egypt",
+    "nameLong": "Egypt",
+    "iso": "EG",
+    "precisions": {
+      "110m": 936,
+      "50m": 9301,
+      "10m": 73848
+    }
+  },
+  {
+    "name": "El Salvador",
+    "nameLong": "El Salvador",
+    "iso": "SV",
+    "precisions": {
+      "110m": 859,
+      "50m": 2821,
+      "10m": 15109
+    }
+  },
+  {
+    "name": "Eq. Guinea",
+    "nameLong": "Equatorial Guinea",
+    "iso": "GQ",
+    "precisions": {
+      "110m": 334,
+      "50m": 2488,
+      "10m": 9613
+    }
+  },
+  {
+    "name": "Eritrea",
+    "nameLong": "Eritrea",
+    "iso": "ER",
+    "precisions": {
+      "110m": 929,
+      "50m": 7261,
+      "10m": 39227
+    }
+  },
+  {
+    "name": "Estonia",
+    "nameLong": "Estonia",
+    "iso": "EE",
+    "precisions": {
+      "110m": 795,
+      "50m": 7327,
+      "10m": 40274
+    }
+  },
+  {
+    "name": "Ethiopia",
+    "nameLong": "Ethiopia",
+    "iso": "ET",
+    "precisions": {
+      "110m": 1672,
+      "50m": 10903,
+      "10m": 41436
+    }
+  },
+  {
+    "name": "Fiji",
+    "nameLong": "Fiji",
+    "iso": "FJ",
+    "precisions": {
+      "110m": 738,
+      "50m": 11030,
+      "10m": 59928
+    }
+  },
+  {
+    "name": "Finland",
+    "nameLong": "Finland",
+    "iso": "FI",
+    "precisions": {
+      "110m": 1578,
+      "50m": 19538,
+      "10m": 123817
+    }
+  },
+  {
+    "name": "Gabon",
+    "nameLong": "Gabon",
+    "iso": "GA",
+    "precisions": {
+      "110m": 1272,
+      "50m": 9713,
+      "10m": 56832
+    }
+  },
+  {
+    "name": "Gambia",
+    "nameLong": "The Gambia",
+    "iso": "GM",
+    "precisions": {
+      "110m": 714,
+      "50m": 2876,
+      "10m": 16540
+    }
+  },
+  {
+    "name": "Georgia",
+    "nameLong": "Georgia",
+    "iso": "GE",
+    "precisions": {
+      "110m": 969
+    }
+  },
+  {
+    "name": "Germany",
+    "nameLong": "Germany",
+    "iso": "DE",
+    "precisions": {
+      "110m": 2303,
+      "50m": 20538,
+      "10m": 116036
+    }
+  },
+  {
+    "name": "Ghana",
+    "nameLong": "Ghana",
+    "iso": "GH",
+    "precisions": {
+      "110m": 1036,
+      "50m": 7806,
+      "10m": 32111
+    }
+  },
+  {
+    "name": "Greece",
+    "nameLong": "Greece",
+    "iso": "GR",
+    "precisions": {
+      "110m": 2159,
+      "50m": 34843,
+      "10m": 234524
+    }
+  },
+  {
+    "name": "Greenland",
+    "nameLong": "Greenland",
+    "iso": "GL",
+    "precisions": {
+      "110m": 2804,
+      "50m": 85688,
+      "10m": 781844
+    }
+  },
+  {
+    "name": "Grenada",
+    "nameLong": "Grenada",
+    "iso": "GD",
+    "precisions": {
+      "50m": 401,
+      "10m": 2639
+    }
+  },
+  {
+    "name": "Guatemala",
+    "nameLong": "Guatemala",
+    "iso": "GT",
+    "precisions": {
+      "110m": 1458,
+      "50m": 4300,
+      "10m": 18179
+    }
+  },
+  {
+    "name": "Guernsey",
+    "nameLong": "Guernsey",
+    "iso": "GG",
+    "precisions": {
+      "50m": 311,
+      "10m": 2371
+    }
+  },
+  {
+    "name": "Guinea",
+    "nameLong": "Guinea",
+    "iso": "GN",
+    "precisions": {
+      "110m": 2856,
+      "50m": 13108,
+      "10m": 64768
+    }
+  },
+  {
+    "name": "Guinea-Bissau",
+    "nameLong": "Guinea-Bissau",
+    "iso": "GW",
+    "precisions": {
+      "110m": 838,
+      "50m": 6210,
+      "10m": 52135
+    }
+  },
+  {
+    "name": "Guyana",
+    "nameLong": "Guyana",
+    "iso": "GY",
+    "precisions": {
+      "110m": 1635,
+      "50m": 10540,
+      "10m": 43938
+    }
+  },
+  {
+    "name": "Haiti",
+    "nameLong": "Haiti",
+    "iso": "HT",
+    "precisions": {
+      "110m": 895,
+      "50m": 4284,
+      "10m": 25470
+    }
+  },
+  {
+    "name": "Honduras",
+    "nameLong": "Honduras",
+    "iso": "HN",
+    "precisions": {
+      "110m": 2330,
+      "50m": 7930,
+      "10m": 46875
+    }
+  },
+  {
+    "name": "Hong Kong",
+    "nameLong": "Hong Kong",
+    "iso": "HK",
+    "precisions": {
+      "50m": 1581,
+      "10m": 15603
+    }
+  },
+  {
+    "name": "Hungary",
+    "nameLong": "Hungary",
+    "iso": "HU",
+    "precisions": {
+      "110m": 1315,
+      "50m": 7668,
+      "10m": 32918
+    }
+  },
+  {
+    "name": "Iceland",
+    "nameLong": "Iceland",
+    "iso": "IS",
+    "precisions": {
+      "110m": 858,
+      "50m": 16287,
+      "10m": 121654
+    }
+  },
+  {
+    "name": "India",
+    "nameLong": "India",
+    "iso": "IN",
+    "precisions": {
+      "110m": 5282,
+      "50m": 56132,
+      "10m": 296041
+    }
+  },
+  {
+    "name": "Indonesia",
+    "nameLong": "Indonesia",
+    "iso": "ID",
+    "precisions": {
+      "110m": 9968,
+      "50m": 142123,
+      "10m": 766031
+    }
+  },
+  {
+    "name": "Iran",
+    "nameLong": "Iran",
+    "iso": "IR",
+    "precisions": {
+      "110m": 2983,
+      "50m": 22410,
+      "10m": 104740
+    }
+  },
+  {
+    "name": "Iraq",
+    "nameLong": "Iraq",
+    "iso": "IQ",
+    "precisions": {
+      "110m": 1226,
+      "50m": 8414
+    }
+  },
+  {
+    "name": "Ireland",
+    "nameLong": "Ireland",
+    "iso": "IE",
+    "precisions": {
+      "110m": 574,
+      "50m": 12044,
+      "10m": 93054
+    }
+  },
+  {
+    "name": "Isle of Man",
+    "nameLong": "Isle of Man",
+    "iso": "IM",
+    "precisions": {
+      "50m": 606,
+      "10m": 2894
+    }
+  },
+  {
+    "name": "Israel",
+    "nameLong": "Israel",
+    "iso": "IL",
+    "precisions": {
+      "110m": 1056,
+      "50m": 3729,
+      "10m": 16217
+    }
+  },
+  {
+    "name": "Italy",
+    "nameLong": "Italy",
+    "iso": "IT",
+    "precisions": {
+      "110m": 3451,
+      "50m": 22898,
+      "10m": 128429
+    }
+  },
+  {
+    "name": "Jamaica",
+    "nameLong": "Jamaica",
+    "iso": "JM",
+    "precisions": {
+      "110m": 503,
+      "50m": 1798,
+      "10m": 10084
+    }
+  },
+  {
+    "name": "Japan",
+    "nameLong": "Japan",
+    "iso": "JP",
+    "precisions": {
+      "110m": 2607,
+      "50m": 41899,
+      "10m": 267265
+    }
+  },
+  {
+    "name": "Jersey",
+    "nameLong": "Jersey",
+    "iso": "JE",
+    "precisions": {
+      "50m": 390,
+      "10m": 1877
+    }
+  },
+  {
+    "name": "Jordan",
+    "nameLong": "Jordan",
+    "iso": "JO",
+    "precisions": {
+      "110m": 807,
+      "50m": 3447,
+      "10m": 14276
+    }
+  },
+  {
+    "name": "Kazakhstan",
+    "nameLong": "Kazakhstan",
+    "iso": "KZ",
+    "precisions": {
+      "110m": 4257,
+      "50m": 42238,
+      "10m": 160559
+    }
+  },
+  {
+    "name": "Kenya",
+    "nameLong": "Kenya",
+    "iso": "KE",
+    "precisions": {
+      "110m": 956,
+      "50m": 8343,
+      "10m": 33798
+    }
+  },
+  {
+    "name": "Kiribati",
+    "nameLong": "Kiribati",
+    "iso": "KI",
+    "precisions": {
+      "50m": 8372,
+      "10m": 28101
+    }
+  },
+  {
+    "name": "Kosovo",
+    "nameLong": "Kosovo",
+    "iso": "XK",
+    "precisions": {
+      "110m": 605,
+      "50m": 2583,
+      "10m": 10580
+    }
+  },
+  {
+    "name": "Kuwait",
+    "nameLong": "Kuwait",
+    "iso": "KW",
+    "precisions": {
+      "110m": 419,
+      "50m": 2573,
+      "10m": 9645
+    }
+  },
+  {
+    "name": "Kyrgyzstan",
+    "nameLong": "Kyrgyzstan",
+    "iso": "KG",
+    "precisions": {
+      "110m": 1391,
+      "50m": 13738,
+      "10m": 46055
+    }
+  },
+  {
+    "name": "Laos",
+    "nameLong": "Lao PDR",
+    "iso": "LA",
+    "precisions": {
+      "110m": 1525,
+      "50m": 14962,
+      "10m": 69952
+    }
+  },
+  {
+    "name": "Latvia",
+    "nameLong": "Latvia",
+    "iso": "LV",
+    "precisions": {
+      "110m": 922,
+      "50m": 4990,
+      "10m": 21123
+    }
+  },
+  {
+    "name": "Lebanon",
+    "nameLong": "Lebanon",
+    "iso": "LB",
+    "precisions": {
+      "110m": 484,
+      "50m": 2239,
+      "10m": 12110
+    }
+  },
+  {
+    "name": "Lesotho",
+    "nameLong": "Lesotho",
+    "iso": "LS",
+    "precisions": {
+      "110m": 547,
+      "50m": 2915,
+      "10m": 13077
+    }
+  },
+  {
+    "name": "Liberia",
+    "nameLong": "Liberia",
+    "iso": "LR",
+    "precisions": {
+      "110m": 1114,
+      "50m": 5182,
+      "10m": 27200
+    }
+  },
+  {
+    "name": "Libya",
+    "nameLong": "Libya",
+    "iso": "LY",
+    "precisions": {
+      "110m": 1692,
+      "50m": 9361,
+      "10m": 25811
+    }
+  },
+  {
+    "name": "Liechtenstein",
+    "nameLong": "Liechtenstein",
+    "iso": "LI",
+    "precisions": {
+      "50m": 577,
+      "10m": 1176
+    }
+  },
+  {
+    "name": "Lithuania",
+    "nameLong": "Lithuania",
+    "iso": "LT",
+    "precisions": {
+      "110m": 807,
+      "50m": 5631,
+      "10m": 21808
+    }
+  },
+  {
+    "name": "Luxembourg",
+    "nameLong": "Luxembourg",
+    "iso": "LU",
+    "precisions": {
+      "110m": 336,
+      "50m": 1638,
+      "10m": 7536
+    }
+  },
+  {
+    "name": "Macao",
+    "nameLong": "Macao",
+    "iso": "MO",
+    "precisions": {
+      "50m": 405,
+      "10m": 3719
+    }
+  },
+  {
+    "name": "Macedonia",
+    "nameLong": "Macedonia",
+    "iso": "MK",
+    "precisions": {
+      "110m": 698,
+      "50m": 2913,
+      "10m": 14206
+    }
+  },
+  {
+    "name": "Madagascar",
+    "nameLong": "Madagascar",
+    "iso": "MG",
+    "precisions": {
+      "110m": 2027,
+      "50m": 10239,
+      "10m": 65349
+    }
+  },
+  {
+    "name": "Malawi",
+    "nameLong": "Malawi",
+    "iso": "MW",
+    "precisions": {
+      "110m": 1143,
+      "50m": 9182,
+      "10m": 32398
+    }
+  },
+  {
+    "name": "Malaysia",
+    "nameLong": "Malaysia",
+    "iso": "MY",
+    "precisions": {
+      "110m": 2480,
+      "50m": 19136,
+      "10m": 98220
+    }
+  },
+  {
+    "name": "Maldives",
+    "nameLong": "Maldives",
+    "iso": "MV",
+    "precisions": {
+      "50m": 872,
+      "10m": 56787
+    }
+  },
+  {
+    "name": "Mali",
+    "nameLong": "Mali",
+    "iso": "ML",
+    "precisions": {
+      "110m": 3080,
+      "50m": 17801,
+      "10m": 69590
+    }
+  },
+  {
+    "name": "Malta",
+    "nameLong": "Malta",
+    "iso": "MT",
+    "precisions": {
+      "50m": 696,
+      "10m": 2202
+    }
+  },
+  {
+    "name": "Marshall Is.",
+    "nameLong": "Marshall Islands",
+    "iso": "MH",
+    "precisions": {
+      "50m": 1851,
+      "10m": 8291
+    }
+  },
+  {
+    "name": "Mauritania",
+    "nameLong": "Mauritania",
+    "iso": "MR",
+    "precisions": {
+      "110m": 1634,
+      "50m": 12429,
+      "10m": 45886
+    }
+  },
+  {
+    "name": "Mauritius",
+    "nameLong": "Mauritius",
+    "iso": "MU",
+    "precisions": {
+      "50m": 742,
+      "10m": 4575
+    }
+  },
+  {
+    "name": "Mexico",
+    "nameLong": "Mexico",
+    "iso": "MX",
+    "precisions": {
+      "110m": 6388,
+      "50m": 39759,
+      "10m": 295403
+    }
+  },
+  {
+    "name": "Micronesia",
+    "nameLong": "Federated States of Micronesia",
+    "iso": "FM",
+    "precisions": {
+      "50m": 1965,
+      "10m": 9857
+    }
+  },
+  {
+    "name": "Moldova",
+    "nameLong": "Moldova",
+    "iso": "MD",
+    "precisions": {
+      "110m": 1117,
+      "50m": 5251,
+      "10m": 28008
+    }
+  },
+  {
+    "name": "Monaco",
+    "nameLong": "Monaco",
+    "iso": "MC",
+    "precisions": {
+      "50m": 323,
+      "10m": 528
+    }
+  },
+  {
+    "name": "Mongolia",
+    "nameLong": "Mongolia",
+    "iso": "MN",
+    "precisions": {
+      "110m": 2911,
+      "50m": 26518,
+      "10m": 57618
+    }
+  },
+  {
+    "name": "Montenegro",
+    "nameLong": "Montenegro",
+    "iso": "ME",
+    "precisions": {
+      "110m": 525,
+      "50m": 3357,
+      "10m": 14003
+    }
+  },
+  {
+    "name": "Morocco",
+    "nameLong": "Morocco",
+    "iso": "MA",
+    "precisions": {
+      "110m": 2576,
+      "50m": 13657,
+      "10m": 40322
+    }
+  },
+  {
+    "name": "Mozambique",
+    "nameLong": "Mozambique",
+    "iso": "MZ",
+    "precisions": {
+      "110m": 3137,
+      "50m": 17074,
+      "10m": 92797
+    }
+  },
+  {
+    "name": "Myanmar",
+    "nameLong": "Myanmar",
+    "iso": "MM",
+    "precisions": {
+      "110m": 2762,
+      "50m": 31719,
+      "10m": 175810
+    }
+  },
+  {
+    "name": "Namibia",
+    "nameLong": "Namibia",
+    "iso": "NA",
+    "precisions": {
+      "110m": 1841,
+      "50m": 8579,
+      "10m": 47629
+    }
+  },
+  {
+    "name": "Nauru",
+    "nameLong": "Nauru",
+    "iso": "NR",
+    "precisions": {
+      "50m": 354,
+      "10m": 402
+    }
+  },
+  {
+    "name": "Nepal",
+    "nameLong": "Nepal",
+    "iso": "NP",
+    "precisions": {
+      "110m": 952,
+      "50m": 7347,
+      "10m": 39435
+    }
+  },
+  {
+    "name": "Netherlands",
+    "nameLong": "Netherlands",
+    "iso": "NL",
+    "precisions": {
+      "110m": 638,
+      "50m": 8783
+    }
+  },
+  {
+    "name": "New Zealand",
+    "nameLong": "New Zealand",
+    "iso": "NZ",
+    "precisions": {
+      "110m": 2711,
+      "50m": 29463,
+      "10m": 178566
+    }
+  },
+  {
+    "name": "Nicaragua",
+    "nameLong": "Nicaragua",
+    "iso": "NI",
+    "precisions": {
+      "110m": 2129,
+      "50m": 6496,
+      "10m": 36875
+    }
+  },
+  {
+    "name": "Niger",
+    "nameLong": "Niger",
+    "iso": "NE",
+    "precisions": {
+      "110m": 2287,
+      "50m": 9368,
+      "10m": 40650
+    }
+  },
+  {
+    "name": "Nigeria",
+    "nameLong": "Nigeria",
+    "iso": "NG",
+    "precisions": {
+      "110m": 2314,
+      "50m": 13242,
+      "10m": 67900
+    }
+  },
+  {
+    "name": "North Korea",
+    "nameLong": "Dem. Rep. Korea",
+    "iso": "KP",
+    "precisions": {
+      "110m": 1932,
+      "50m": 9875,
+      "10m": 68857
+    }
+  },
+  {
+    "name": "Oman",
+    "nameLong": "Oman",
+    "iso": "OM",
+    "precisions": {
+      "110m": 1904,
+      "50m": 9143,
+      "10m": 39872
+    }
+  },
+  {
+    "name": "Pakistan",
+    "nameLong": "Pakistan",
+    "iso": "PK",
+    "precisions": {
+      "110m": 2587,
+      "50m": 20108,
+      "10m": 81488
+    }
+  },
+  {
+    "name": "Palau",
+    "nameLong": "Palau",
+    "iso": "PW",
+    "precisions": {
+      "50m": 837,
+      "10m": 6422
+    }
+  },
+  {
+    "name": "Panama",
+    "nameLong": "Panama",
+    "iso": "PA",
+    "precisions": {
+      "110m": 2072,
+      "50m": 9295,
+      "10m": 77543
+    }
+  },
+  {
+    "name": "Paraguay",
+    "nameLong": "Paraguay",
+    "iso": "PY",
+    "precisions": {
+      "110m": 1416,
+      "50m": 9744,
+      "10m": 46613
+    }
+  },
+  {
+    "name": "Peru",
+    "nameLong": "Peru",
+    "iso": "PE",
+    "precisions": {
+      "110m": 3114,
+      "50m": 21616,
+      "10m": 96666
+    }
+  },
+  {
+    "name": "Philippines",
+    "nameLong": "Philippines",
+    "iso": "PH",
+    "precisions": {
+      "110m": 4424,
+      "50m": 47585,
+      "10m": 288833
+    }
+  },
+  {
+    "name": "Poland",
+    "nameLong": "Poland",
+    "iso": "PL",
+    "precisions": {
+      "110m": 1816,
+      "50m": 11242,
+      "10m": 51860
+    }
+  },
+  {
+    "name": "Portugal",
+    "nameLong": "Portugal",
+    "iso": "PT",
+    "precisions": {
+      "110m": 1357
+    }
+  },
+  {
+    "name": "Qatar",
+    "nameLong": "Qatar",
+    "iso": "QA",
+    "precisions": {
+      "110m": 414,
+      "50m": 1278,
+      "10m": 9417
+    }
+  },
+  {
+    "name": "Romania",
+    "nameLong": "Romania",
+    "iso": "RO",
+    "precisions": {
+      "110m": 1773,
+      "50m": 9701,
+      "10m": 46486
+    }
+  },
+  {
+    "name": "Russia",
+    "nameLong": "Russian Federation",
+    "iso": "RU",
+    "precisions": {
+      "110m": 19955,
+      "50m": 277156,
+      "10m": 1394726
+    }
+  },
+  {
+    "name": "Rwanda",
+    "nameLong": "Rwanda",
+    "iso": "RW",
+    "precisions": {
+      "110m": 602,
+      "50m": 3054,
+      "10m": 12777
+    }
+  },
+  {
+    "name": "S. Sudan",
+    "nameLong": "South Sudan",
+    "iso": "SS",
+    "precisions": {
+      "110m": 2308,
+      "50m": 11798,
+      "10m": 44523
+    }
+  },
+  {
+    "name": "Saint Lucia",
+    "nameLong": "Saint Lucia",
+    "iso": "LC",
+    "precisions": {
+      "50m": 443,
+      "10m": 2057
+    }
+  },
+  {
+    "name": "Samoa",
+    "nameLong": "Samoa",
+    "iso": "WS",
+    "precisions": {
+      "50m": 1151,
+      "10m": 5532
+    }
+  },
+  {
+    "name": "San Marino",
+    "nameLong": "San Marino",
+    "iso": "SM",
+    "precisions": {
+      "50m": 299,
+      "10m": 804
+    }
+  },
+  {
+    "name": "São Tomé and Principe",
+    "nameLong": "São Tomé and Principe",
+    "iso": "ST",
+    "precisions": {
+      "50m": 887,
+      "10m": 3691
+    }
+  },
+  {
+    "name": "Saudi Arabia",
+    "nameLong": "Saudi Arabia",
+    "iso": "SA",
+    "precisions": {
+      "110m": 3030,
+      "50m": 16440,
+      "10m": 91079
+    }
+  },
+  {
+    "name": "Senegal",
+    "nameLong": "Senegal",
+    "iso": "SN",
+    "precisions": {
+      "110m": 1851,
+      "50m": 9482,
+      "10m": 55840
+    }
+  },
+  {
+    "name": "Seychelles",
+    "nameLong": "Seychelles",
+    "iso": "SC",
+    "precisions": {
+      "50m": 355,
+      "10m": 13066
+    }
+  },
+  {
+    "name": "Sierra Leone",
+    "nameLong": "Sierra Leone",
+    "iso": "SL",
+    "precisions": {
+      "110m": 939,
+      "50m": 4924,
+      "10m": 27607
+    }
+  },
+  {
+    "name": "Singapore",
+    "nameLong": "Singapore",
+    "iso": "SG",
+    "precisions": {
+      "50m": 392,
+      "10m": 1615
+    }
+  },
+  {
+    "name": "Sint Maarten",
+    "nameLong": "Sint Maarten",
+    "iso": "SX",
+    "precisions": {
+      "50m": 316,
+      "10m": 423
+    }
+  },
+  {
+    "name": "Slovakia",
+    "nameLong": "Slovakia",
+    "iso": "SK",
+    "precisions": {
+      "110m": 1358,
+      "50m": 5215,
+      "10m": 22281
+    }
+  },
+  {
+    "name": "Slovenia",
+    "nameLong": "Slovenia",
+    "iso": "SI",
+    "precisions": {
+      "110m": 772,
+      "50m": 4782,
+      "10m": 20220
+    }
+  },
+  {
+    "name": "Solomon Is.",
+    "nameLong": "Solomon Islands",
+    "iso": "SB",
+    "precisions": {
+      "110m": 1557,
+      "50m": 12953,
+      "10m": 86461
+    }
+  },
+  {
+    "name": "Somalia",
+    "nameLong": "Somalia",
+    "iso": "SO",
+    "precisions": {
+      "110m": 945,
+      "50m": 5137
+    }
+  },
+  {
+    "name": "South Africa",
+    "nameLong": "South Africa",
+    "iso": "ZA",
+    "precisions": {
+      "110m": 3819,
+      "50m": 16574,
+      "10m": 87951
+    }
+  },
+  {
+    "name": "South Korea",
+    "nameLong": "Republic of Korea",
+    "iso": "KR",
+    "precisions": {
+      "110m": 804,
+      "50m": 10067,
+      "10m": 117833
+    }
+  },
+  {
+    "name": "Spain",
+    "nameLong": "Spain",
+    "iso": "ES",
+    "precisions": {
+      "110m": 2059,
+      "50m": 20410,
+      "10m": 115431
+    }
+  },
+  {
+    "name": "Sri Lanka",
+    "nameLong": "Sri Lanka",
+    "iso": "LK",
+    "precisions": {
+      "110m": 442,
+      "50m": 3436,
+      "10m": 33624
+    }
+  },
+  {
+    "name": "St. Kitts and Nevis",
+    "nameLong": "Saint Kitts and Nevis",
+    "iso": "KN",
+    "precisions": {
+      "50m": 843,
+      "10m": 1757
+    }
+  },
+  {
+    "name": "St. Vin. and Gren.",
+    "nameLong": "Saint Vincent and the Grenadines",
+    "iso": "VC",
+    "precisions": {
+      "50m": 1986,
+      "10m": 3403
+    }
+  },
+  {
+    "name": "Sudan",
+    "nameLong": "Sudan",
+    "iso": "SD",
+    "precisions": {
+      "110m": 2659,
+      "50m": 16338,
+      "10m": 45617
+    }
+  },
+  {
+    "name": "Suriname",
+    "nameLong": "Suriname",
+    "iso": "SR",
+    "precisions": {
+      "110m": 1081,
+      "50m": 6731,
+      "10m": 28913
+    }
+  },
+  {
+    "name": "Swaziland",
+    "nameLong": "Swaziland",
+    "iso": "SZ",
+    "precisions": {
+      "110m": 503,
+      "50m": 1466,
+      "10m": 3513
+    }
+  },
+  {
+    "name": "Sweden",
+    "nameLong": "Sweden",
+    "iso": "SE",
+    "precisions": {
+      "110m": 1615,
+      "50m": 22454,
+      "10m": 179089
+    }
+  },
+  {
+    "name": "Switzerland",
+    "nameLong": "Switzerland",
+    "iso": "CH",
+    "precisions": {
+      "110m": 980,
+      "50m": 6616,
+      "10m": 28658
+    }
+  },
+  {
+    "name": "Syria",
+    "nameLong": "Syria",
+    "iso": "SY",
+    "precisions": {
+      "110m": 1109,
+      "50m": 6046
+    }
+  },
+  {
+    "name": "Taiwan",
+    "nameLong": "Taiwan",
+    "iso": "TW",
+    "precisions": {
+      "110m": 420,
+      "50m": 2685,
+      "10m": 21755
+    }
+  },
+  {
+    "name": "Tajikistan",
+    "nameLong": "Tajikistan",
+    "iso": "TJ",
+    "precisions": {
+      "110m": 1620,
+      "50m": 13234,
+      "10m": 47787
+    }
+  },
+  {
+    "name": "Tanzania",
+    "nameLong": "Tanzania",
+    "iso": "TZ",
+    "precisions": {
+      "110m": 1622,
+      "50m": 12775,
+      "10m": 57695
+    }
+  },
+  {
+    "name": "Thailand",
+    "nameLong": "Thailand",
+    "iso": "TH",
+    "precisions": {
+      "110m": 2553,
+      "50m": 21991,
+      "10m": 128179
+    }
+  },
+  {
+    "name": "Timor-Leste",
+    "nameLong": "Timor-Leste",
+    "iso": "TL",
+    "precisions": {
+      "110m": 504,
+      "50m": 2811,
+      "10m": 11142
+    }
+  },
+  {
+    "name": "Togo",
+    "nameLong": "Togo",
+    "iso": "TG",
+    "precisions": {
+      "110m": 787,
+      "50m": 4612,
+      "10m": 18617
+    }
+  },
+  {
+    "name": "Tonga",
+    "nameLong": "Tonga",
+    "iso": "TO",
+    "precisions": {
+      "50m": 1359,
+      "10m": 8779
+    }
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "nameLong": "Trinidad and Tobago",
+    "iso": "TT",
+    "precisions": {
+      "110m": 188,
+      "50m": 1561,
+      "10m": 7929
+    }
+  },
+  {
+    "name": "Tunisia",
+    "nameLong": "Tunisia",
+    "iso": "TN",
+    "precisions": {
+      "110m": 1275,
+      "50m": 6886,
+      "10m": 27019
+    }
+  },
+  {
+    "name": "Turkey",
+    "nameLong": "Turkey",
+    "iso": "TR",
+    "precisions": {
+      "110m": 2666,
+      "50m": 20953,
+      "10m": 139580
+    }
+  },
+  {
+    "name": "Turkmenistan",
+    "nameLong": "Turkmenistan",
+    "iso": "TM",
+    "precisions": {
+      "110m": 2140,
+      "50m": 16138,
+      "10m": 63359
+    }
+  },
+  {
+    "name": "Tuvalu",
+    "nameLong": "Tuvalu",
+    "iso": "TV",
+    "precisions": {
+      "10m": 2830
+    }
+  },
+  {
+    "name": "Uganda",
+    "nameLong": "Uganda",
+    "iso": "UG",
+    "precisions": {
+      "110m": 933,
+      "50m": 6533,
+      "10m": 23671
+    }
+  },
+  {
+    "name": "Ukraine",
+    "nameLong": "Ukraine",
+    "iso": "UA",
+    "precisions": {
+      "110m": 3631,
+      "50m": 23380,
+      "10m": 102242
+    }
+  },
+  {
+    "name": "United Arab Emirates",
+    "nameLong": "United Arab Emirates",
+    "iso": "AE",
+    "precisions": {
+      "110m": 922,
+      "50m": 7010,
+      "10m": 30848
+    }
+  },
+  {
+    "name": "United States of America",
+    "nameLong": "United States",
+    "iso": "US",
+    "precisions": {
+      "110m": 13526,
+      "50m": 222733,
+      "10m": 1417220
+    }
+  },
+  {
+    "name": "Uruguay",
+    "nameLong": "Uruguay",
+    "iso": "UY",
+    "precisions": {
+      "110m": 921,
+      "50m": 5422,
+      "10m": 23650
+    }
+  },
+  {
+    "name": "Uzbekistan",
+    "nameLong": "Uzbekistan",
+    "iso": "UZ",
+    "precisions": {
+      "110m": 2133,
+      "50m": 21407,
+      "10m": 64075
+    }
+  },
+  {
+    "name": "Vanuatu",
+    "nameLong": "Vanuatu",
+    "iso": "VU",
+    "precisions": {
+      "110m": 563,
+      "50m": 7400,
+      "10m": 40738
+    }
+  },
+  {
+    "name": "Vatican",
+    "nameLong": "Vatican",
+    "iso": "VA",
+    "precisions": {
+      "50m": 283,
+      "10m": 334
+    }
+  },
+  {
+    "name": "Venezuela",
+    "nameLong": "Venezuela",
+    "iso": "VE",
+    "precisions": {
+      "110m": 3659,
+      "50m": 21646,
+      "10m": 125892
+    }
+  },
+  {
+    "name": "Vietnam",
+    "nameLong": "Vietnam",
+    "iso": "VN",
+    "precisions": {
+      "110m": 1800,
+      "50m": 23576,
+      "10m": 162957
+    }
+  },
+  {
+    "name": "Yemen",
+    "nameLong": "Yemen",
+    "iso": "YE",
+    "precisions": {
+      "110m": 1780,
+      "50m": 8569,
+      "10m": 40120
+    }
+  },
+  {
+    "name": "Zambia",
+    "nameLong": "Zambia",
+    "iso": "ZM",
+    "precisions": {
+      "110m": 2519,
+      "50m": 13886,
+      "10m": 60540
+    }
+  },
+  {
+    "name": "Zimbabwe",
+    "nameLong": "Zimbabwe",
+    "iso": "ZW",
+    "precisions": {
+      "110m": 1550,
+      "50m": 6268,
+      "10m": 30769
+    }
+  }
+]

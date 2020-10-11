@@ -1,0 +1,39 @@
+.group {
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  flex: 1 0;
+  text-align: center;
+
+  /* after select-css.css */
+  font-family: sans-serif;
+
+  color: #666;
+  line-height: 1.3;
+  padding: 0.4rem 0.5rem 0.3rem 0.5rem;
+  box-sizing: border-box;
+  margin: 0;
+  border: 1px solid #aaa;
+  box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
+  border-right-width: 0;
+
+  transition: 0.3s ease;
+}
+
+.button:first-child {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.button:last-child {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-right-width: 1px;
+}
+
+.selected {
+  color: black;
+  background-color: white;
+}

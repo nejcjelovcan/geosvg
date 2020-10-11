@@ -1,0 +1,40 @@
+.card {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  transition: 0.3s ease, opacity 0.5s ease;
+  font-size: 0.8em;
+}
+
+.interactive {
+  color: #444;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+.interactive:hover {
+  box-shadow: 0px 0px 0.3rem 0.05rem rgba(0, 0, 0, 0.25);
+}
+
+.selected,
+.selected:hover {
+  color: black;
+  box-shadow: 0px 0px 0.3rem 0.05rem rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+.loading {
+  opacity: 0.2;
+}
+
+.card h2 {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.card hr {
+  margin: 0.5rem 0rem;
+  border: 0;
+  height: 0;
+}
