@@ -32,7 +32,7 @@ custom:
     targets:
       - bucket: ${self:custom.siteName}
         files:
-          - source: ./geosvg/build/
+          - source: ./build/
             globs:
               - "**/*.html"
               - "**/*.css"
