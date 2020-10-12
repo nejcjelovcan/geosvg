@@ -20,7 +20,7 @@ custom:
 
   scripts:
     hooks:
-      "package:createDeploymentArtifacts": yarn --cwd ./geosvg && yarn --cwd ./geosvg download-geojson && yarn --cwd ./geosvg generate-units && yarn --cwd ./geosvg build
+      "package:createDeploymentArtifacts": yarn download-geojson && yarn generate-units && yarn build
 
   cloudfrontInvalidate:
     distributionIdKey: "CloudFrontDistributionId"
