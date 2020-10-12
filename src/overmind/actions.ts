@@ -11,6 +11,7 @@ export const setMapUnitIso: Action<string> = ({ state }, iso) => {
   if (isoState) {
     isoState.iso = iso;
     isoState.mapUnit = mapUnits.find((u) => u.iso === iso)!;
+    isoState.requestedIso = null;
   }
 };
 
@@ -20,7 +21,10 @@ export const setMapUnitPrecision: Action<string> = (
 ) => {
   const selectedState = state.transition("SELECTED");
   if (selectedState) {
-    if (selectedState.precision !== precision) {
+    if (
+      selectedState.precision !== precision ||
+      selectedState.iso !== selectedState.requestedIso
+    ) {
       selectedState.precision = precision;
       selectedState.transforms = [...TRANSFORMS_PRESET];
       selectedState.svgs = [];
@@ -34,6 +38,7 @@ export const requestTransforms: Action = ({
   effects: { transformWorker },
 }) => {
   if (state.state === "SELECTED") {
+    state.requestedIso = state.iso;
     transformWorker.requestTransforms({
       featureUrl: `/data/mapUnits/${state.precision}/${state.iso}.json`,
       transforms: state.transforms,

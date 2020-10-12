@@ -15,4 +15,8 @@ code {
     monospace;
 }
 
+a:visited {
+  color: #0000ee;
+}
+
 @import "~fg-select-css/src/select-css.css";

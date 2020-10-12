@@ -1,4 +1,5 @@
 import React, { Fragment, useState } from "react";
+import { TransformComponent, TransformWrapper } from "react-zoom-pan-pinch";
 import { useOvermind } from "../overmind";
 import styles from "./App.module.css";
 import Separator from "./Separator";
@@ -22,6 +23,21 @@ function App() {
         <h1>
           GeoSVG <small>Optimize GeoJSON SVG</small>
         </h1>
+        <div className={styles.info}>
+          <small>
+            Choose a{" "}
+            <a
+              href="http://www.naturalearthdata.com/"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              NaturalEarthData
+            </a>{" "}
+            map unit and click on optimization steps to see the result of
+            optimizations up to that step. Once rendered, you can zoom and pan
+            the map on the right side.
+          </small>
+        </div>
         <MapUnitStep />
         {transforms.map((transform, i) => (
           <Fragment key={i}>
@@ -42,9 +58,18 @@ function App() {
       </nav>
       <main className={styles.content}>
         {svgs[selectedTransform] && (
-          <div
-            dangerouslySetInnerHTML={{ __html: svgs[selectedTransform].svg! }}
-          ></div>
+          <TransformWrapper
+            defaultScale={2}
+            options={{ minScale: 2, maxScale: 50 }}
+          >
+            <TransformComponent>
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: svgs[selectedTransform].svg!,
+                }}
+              />
+            </TransformComponent>
+          </TransformWrapper>
         )}
       </main>
     </div>

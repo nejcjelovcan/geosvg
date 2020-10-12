@@ -35,7 +35,7 @@ export default class TransformWorker {
   // TODO check what happens if we do a request while worker is still working
   // on the previous one
   async requestTransforms(payload: TransformPayload) {
-    console.log("REQUEST TRANSFORMS", payload);
+    // console.log("REQUEST TRANSFORMS", payload);
     // TODO assert payload.transforms[0].operation === 'loadGeojson'
     await this.setFeature(payload.featureUrl);
     if (this.updateTransforms(payload.transforms)) {

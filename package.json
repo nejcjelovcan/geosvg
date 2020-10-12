@@ -23,6 +23,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
+    "react-zoom-pan-pinch": "^1.6.1",
     "simplify-js": "^1.2.4",
     "typescript": "~3.7.2",
     "worker-loader": "^3.0.4"
@@ -32,6 +33,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "lint": "eslint --ext js,ts,tsx src",
     "download-geojson": "scripts/download-geojson.sh",
     "generate-units": "mkdir public/data && ts-node --project scripts/tsconfig.script.json scripts/generate-units.ts"
   },

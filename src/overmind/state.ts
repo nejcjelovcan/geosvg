@@ -5,6 +5,7 @@ import { Transform, TransformResult } from "../model/transform.model";
 type IsoState = {
   iso: string;
   mapUnit: MapUnitData;
+  requestedIso: string | null;
 };
 
 type AppState =
