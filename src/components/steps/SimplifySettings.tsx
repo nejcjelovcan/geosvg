@@ -17,7 +17,7 @@ const SimplifySettings = ({ onChange, transform }: SimplifySettingsProps) => {
           id="simplify_tolerance"
           name="simplify_tolerance"
           type="range"
-          step={0.05}
+          step={0.01}
           min={0}
           max={1}
           onChange={
