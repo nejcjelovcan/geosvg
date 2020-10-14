@@ -35,7 +35,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint --ext js,ts,tsx src",
     "download-geojson": "scripts/download-geojson.sh",
-    "generate-units": "mkdir -p public/data && ts-node --project scripts/tsconfig.script.json scripts/generate-units.ts"
+    "generate-units": "mkdir -p public/data && ts-node --project scripts/tsconfig.script.json scripts/generate-units.ts",
+    "deploy": "dotenv -e .env.local serverless deploy -- --verbose"
   },
   "eslintConfig": {
     "extends": "react-app"

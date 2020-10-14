@@ -15,8 +15,8 @@ export const generateSvg = ({
 }: SvgData) => `<svg viewBox="${viewBox.join(" ")}">
 ${polygons.map(
   (polygon, i) =>
-    `<polygon vector-effect="non-scaling-stroke" points="${polygon
-      .map((pos) => pos.join(","))
-      .join(" ")}" />`
+    `<polygon vector-effect="non-scaling-stroke" points="${polygon.map(
+      (positions) => positions.map((coord) => coord.join(",")).join(" ")
+    )}" />`
 )}
 </svg>`;

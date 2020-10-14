@@ -35,10 +35,18 @@ custom:
           - source: ./build/
             globs:
               - "**/*.html"
-              - "**/*.css"
-              - "**/*.js"
               - "**/*.json"
               - "**/*.txt"
+
+      - bucket: ${self:custom.siteName}
+        files:
+          - source: ./build/
+            globs:
+              - "**/*.css"
+              - "**/*.js"
+
+            headers:
+              CacheControl: max-age=86400
 
 resources:
   Resources:
