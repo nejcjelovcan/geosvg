@@ -6,10 +6,11 @@
   font-size: 0.8em;
 }
 
-.interactive {
+.interactive,
+.loading {
   color: #444;
   cursor: pointer;
-  background-color: #f0f0f0;
+  background-color: #e0e0e0;
 }
 .interactive:hover {
   box-shadow: 0px 0px 0.3rem 0.05rem rgba(0, 0, 0, 0.25);
@@ -23,7 +24,8 @@
 }
 
 .loading {
-  opacity: 0.2;
+  animation: opacity-pulsate 0.75s linear;
+  animation-iteration-count: infinite;
 }
 
 .card h2 {
@@ -37,4 +39,16 @@
   margin: 0.5rem 0rem;
   border: 0;
   height: 0;
+}
+
+@keyframes opacity-pulsate {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.2;
+  }
 }

@@ -9,7 +9,7 @@ import {
   TRANSFORM_INFO,
 } from "../../model/transform.model";
 import cardStyles from "../Card.module.css";
-import LowerPrecisionSettings from "./LowerPrecisionSettings";
+import ScaleViewBoxSettings from "./ScaleViewBoxSettings";
 import SimplifySettings from "./SimplifySettings";
 import styles from "./TransformStep.module.css";
 
@@ -20,7 +20,7 @@ export type TransformStepProps = {
   result?: TransformResult;
 
   onClick?: () => void;
-  onChange?: (transform: Transform) => void;
+  onChange: (transform: Transform) => void;
 };
 
 const getChange = (value1: number, value2: number) =>
@@ -46,7 +46,7 @@ const TransformStep = ({
   return (
     <div
       className={classNames(cardStyles.card, cardStyles.interactive, {
-        [cardStyles.selected]: selected,
+        [cardStyles.selected]: result && selected,
         [cardStyles.loading]: !result,
       })}
       title={TRANSFORM_INFO[transform.operation]}
@@ -61,8 +61,8 @@ const TransformStep = ({
       {transform.operation === "simplify" && (
         <SimplifySettings transform={transform} onChange={onChange} />
       )}
-      {transform.operation === "lowerPrecision" && (
-        <LowerPrecisionSettings transform={transform} onChange={onChange} />
+      {transform.operation === "scaleViewBox" && (
+        <ScaleViewBoxSettings transform={transform} onChange={onChange} />
       )}
       <DescriptionDetails
         items={[

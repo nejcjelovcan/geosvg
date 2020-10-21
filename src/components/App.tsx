@@ -60,7 +60,13 @@ function App() {
         {svgs[selectedTransform] && (
           <TransformWrapper
             defaultScale={2}
-            options={{ minScale: 2, maxScale: 50 }}
+            options={{
+              minScale: 0.5,
+              maxScale: 50,
+              limitToBounds: false,
+              limitToWrapper: false,
+            }}
+            pan={{ velocitySensitivity: 0 }}
           >
             <TransformComponent>
               <div

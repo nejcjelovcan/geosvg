@@ -7,9 +7,9 @@ import {
   TransformResult,
 } from "../model/transform.model";
 import { loadGeojson } from "../model/transform/loadGeojson";
-import lowerPrecision from "../model/transform/lowerPrecision";
+import scaleViewBox from "../model/transform/scaleViewBox";
 import simplifyPolygons from "../model/transform/simplifyPolygons";
-import truncateViewBox from "../model/transform/truncateViewBox";
+import zeroOrigin from "../model/transform/zeroOrigin";
 import fetchMapUnit from "./fetchMapUnit";
 
 type TransformWorkerState = {
@@ -98,16 +98,16 @@ export default class TransformWorker {
     switch (trans.operation) {
       case "loadGeojson":
         return loadGeojson(this.state.feature!);
-      case "truncateViewBox":
-        return truncateViewBox(this.state.svgs[i - 1]);
-      case "lowerPrecision":
-        return lowerPrecision(this.state.svgs[i - 1], trans.targetWidthRatio);
       case "simplify":
         const viewBox = this.state.svgs[i - 1].viewBox;
         return simplifyPolygons(
           this.state.svgs[i - 1],
-          (viewBox[2] / 100) * trans.toleranceNormalized
+          (viewBox[2] / 500) * trans.toleranceNormalized
         );
+      case "scaleViewBox":
+        return scaleViewBox(this.state.svgs[i - 1], trans);
+      case "zeroOrigin":
+        return zeroOrigin(this.state.svgs[i - 1], trans);
       default:
         throw new Error("Unrecognized transform");
     }
