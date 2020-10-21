@@ -11,7 +11,6 @@ const ScaleViewBoxSettings = ({
   onChange,
   transform,
 }: ScaleViewBoxSettingsProps) => {
-  console.log("TRANSFORM", transform);
   return (
     <>
       <div className={stepStyles.settingsPair}>
