@@ -31,9 +31,9 @@ export type TransformZeroOrigin = {
 
 export const TRANSFORMS_PRESET: Transform[] = [
   { operation: "loadGeojson" },
+  { operation: "zeroOrigin", zeroOrigin: true },
   { operation: "simplify", toleranceNormalized: 0.25 },
   { operation: "scaleViewBox", scale: true, targetWidth: 1000, round: true },
-  { operation: "zeroOrigin", zeroOrigin: true },
 ];
 
 export const TRANSFORM_DISPLAY = {

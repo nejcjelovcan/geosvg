@@ -46,7 +46,7 @@ const TransformStep = ({
   return (
     <div
       className={classNames(cardStyles.card, cardStyles.interactive, {
-        [cardStyles.selected]: selected,
+        [cardStyles.selected]: result && selected,
         [cardStyles.loading]: !result,
       })}
       title={TRANSFORM_INFO[transform.operation]}
