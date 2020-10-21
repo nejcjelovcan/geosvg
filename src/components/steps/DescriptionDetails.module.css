@@ -1,7 +1,11 @@
 .dl {
-  margin: 1em 0 0 0;
+  margin: 0.5rem 0 0 0;
   display: flex;
   flex-direction: row;
+}
+
+.vertical {
+  flex-direction: column;
 }
 
 .dl > dt {
@@ -13,17 +17,4 @@
   flex: 1 0;
   margin-inline-start: 0.2em;
   white-space: nowrap;
-}
-
-.changeUp,
-.changeDown {
-  font-weight: bold;
-  font-size: 0.9em;
-}
-
-.changeUp {
-  color: darkred;
-}
-.changeDown {
-  color: darkgreen;
 }

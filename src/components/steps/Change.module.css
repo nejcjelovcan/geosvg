@@ -1,0 +1,12 @@
+.changeUp,
+.changeDown {
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.changeUp {
+  color: darkred;
+}
+.changeDown {
+  color: darkgreen;
+}

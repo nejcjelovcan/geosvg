@@ -8,6 +8,6 @@ A simple React SPA for rendering a Map Unit from Natural Earth Data as SVG and i
 - [Natural Earth Data](http://www.naturalearthdata.com/) dataset
 
 ## TODO
-- show absolute SVG size change at the bottom (and download button?)
-- allow skipping lowerPrecision step
-- add links in footer (libraries & github repository)
+- allow skipping zeroOrigin
+- add links (libraries & github repository)
+- show zoom level

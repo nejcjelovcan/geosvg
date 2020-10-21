@@ -5,7 +5,10 @@ export default function scaleViewBox(
   { viewBox, polygons }: SvgData,
   transform: TransformScaleViewBox
 ): SvgData {
-  const scale = transform.scale ? transform.targetWidth / viewBox[2] : 1;
+  const targetSize = Math.pow(10, transform.targetSizeDigits) - 1;
+  const scale = transform.scale
+    ? targetSize / Math.max(viewBox[2], viewBox[3])
+    : 1;
 
   const scalePoint = (point: number[]) => point.map((c) => c * scale);
   const roundPoint = (point: number[]) =>

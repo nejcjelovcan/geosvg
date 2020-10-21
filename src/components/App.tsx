@@ -1,12 +1,14 @@
 import React, { Fragment, useState } from "react";
-import { TransformComponent, TransformWrapper } from "react-zoom-pan-pinch";
 import { useOvermind } from "../overmind";
 import styles from "./App.module.css";
+import Main from "./Main";
+import NavigationHeader from "./NavigationHeader";
 import Separator from "./Separator";
+import DownloadStep from "./steps/DownloadStep";
 import MapUnitStep from "./steps/MapUnitStep";
 import TransformStep from "./steps/TransformStep";
 
-function App() {
+export default function App() {
   const {
     state,
     actions: { updateTransform },
@@ -20,24 +22,7 @@ function App() {
   return (
     <div className={styles.container}>
       <nav className={styles.sidebar}>
-        <h1>
-          GeoSVG <small>Optimize GeoJSON SVG</small>
-        </h1>
-        <div className={styles.info}>
-          <small>
-            Choose a{" "}
-            <a
-              href="http://www.naturalearthdata.com/"
-              rel="noreferrer noopener"
-              target="_blank"
-            >
-              NaturalEarthData
-            </a>{" "}
-            map unit and click on optimization steps to see the result of
-            optimizations up to that step. Once rendered, you can zoom and pan
-            the map on the right side.
-          </small>
-        </div>
+        <NavigationHeader />
         <MapUnitStep />
         {transforms.map((transform, i) => (
           <Fragment key={i}>
@@ -54,32 +39,14 @@ function App() {
             />
           </Fragment>
         ))}
-        {/* {transforms.length > 0 && } */}
-      </nav>
-      <main className={styles.content}>
-        {svgs[selectedTransform] && (
-          <TransformWrapper
-            defaultScale={2}
-            options={{
-              minScale: 0.5,
-              maxScale: 50,
-              limitToBounds: false,
-              limitToWrapper: false,
-            }}
-            pan={{ velocitySensitivity: 0 }}
-          >
-            <TransformComponent>
-              <div
-                dangerouslySetInnerHTML={{
-                  __html: svgs[selectedTransform].svg!,
-                }}
-              />
-            </TransformComponent>
-          </TransformWrapper>
+        {svgs.length > 2 && (
+          <>
+            <Separator />
+            <DownloadStep />
+          </>
         )}
-      </main>
+      </nav>
+      <Main selectedTransform={selectedTransform} svgs={svgs} />
     </div>
   );
 }
-
-export default App;
