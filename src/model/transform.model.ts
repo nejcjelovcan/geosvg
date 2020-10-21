@@ -21,7 +21,7 @@ export type TransformSimplify = {
 export type TransformScaleViewBox = {
   operation: "scaleViewBox";
   scale: boolean;
-  targetWidth: number;
+  targetSizeDigits: number;
   round: boolean;
 };
 export type TransformZeroOrigin = {
@@ -33,7 +33,7 @@ export const TRANSFORMS_PRESET: Transform[] = [
   { operation: "loadGeojson" },
   { operation: "zeroOrigin", zeroOrigin: true },
   { operation: "simplify", toleranceNormalized: 0.25 },
-  { operation: "scaleViewBox", scale: true, targetWidth: 1000, round: true },
+  { operation: "scaleViewBox", scale: true, targetSizeDigits: 4, round: true },
 ];
 
 export const TRANSFORM_DISPLAY = {

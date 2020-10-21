@@ -13,10 +13,12 @@ export const generateSvg = ({
   viewBox,
   polygons,
 }: SvgData) => `<svg viewBox="${viewBox.join(" ")}">
-${polygons.map(
-  (polygon, i) =>
-    `<polygon vector-effect="non-scaling-stroke" points="${polygon.map(
-      (positions) => positions.map((coord) => coord.join(",")).join(" ")
-    )}" />`
-)}
+${polygons
+  .map(
+    (polygon, i) =>
+      `<polygon points="${polygon.map((positions) =>
+        positions.map((coord) => coord.join(",")).join(" ")
+      )}" vector-effect="non-scaling-stroke" />`
+  )
+  .join("\n")}
 </svg>`;

@@ -6,7 +6,7 @@
   font-size: 1rem;
 }
 .separator:after {
-  color: #aaa;
+  color: #888;
   content: "▼"; /* ▿▾▽▼ */
   display: inline-block;
   position: relative;

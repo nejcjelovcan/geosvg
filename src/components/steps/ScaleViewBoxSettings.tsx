@@ -11,6 +11,7 @@ const ScaleViewBoxSettings = ({
   onChange,
   transform,
 }: ScaleViewBoxSettingsProps) => {
+  console.log("TRANSFORM", transform);
   return (
     <>
       <div className={stepStyles.settingsPair}>
@@ -36,24 +37,34 @@ const ScaleViewBoxSettings = ({
         <label htmlFor="round">Round</label>
       </div>
       <div className={stepStyles.settingsPair}>
-        <label htmlFor="target_width">Target{"\xa0"}Width</label>
+        <label htmlFor="target_size">Digits</label>
         <input
           disabled={!transform.scale}
-          value={transform.targetWidth}
-          id="target_width"
-          name="target_width"
+          value={transform.targetSizeDigits}
+          id="target_size"
+          name="target_size"
           type="range"
-          min={100}
-          step={100}
-          max={20000}
+          min={1}
+          step={1}
+          max={9}
           onChange={(event) =>
             onChange({
               ...transform,
-              targetWidth: parseFloat(event.target.value),
+              targetSizeDigits: parseInt(event.target.value),
             })
           }
         />
-        <div>{transform.targetWidth}</div>
+        <div>
+          {transform.targetSizeDigits}
+          {/* {"\xa0"}
+          <small>
+            (
+            {Intl.NumberFormat().format(
+              Math.pow(10, transform.targetSizeDigits) - 1
+            )}
+            )
+          </small> */}
+        </div>
       </div>
     </>
   );

@@ -1,7 +1,7 @@
 import classNames from "classnames";
 import fileSize from "filesize";
 import React from "react";
-import DescriptionDetails from "../../DescriptionDetails";
+import DescriptionDetails from "./DescriptionDetails";
 import {
   Transform,
   TransformResult,
@@ -12,6 +12,7 @@ import cardStyles from "../Card.module.css";
 import ScaleViewBoxSettings from "./ScaleViewBoxSettings";
 import SimplifySettings from "./SimplifySettings";
 import styles from "./TransformStep.module.css";
+import { getChange } from "./Change";
 
 export type TransformStepProps = {
   transform: Transform;
@@ -22,9 +23,6 @@ export type TransformStepProps = {
   onClick?: () => void;
   onChange: (transform: Transform) => void;
 };
-
-const getChange = (value1: number, value2: number) =>
-  ((value2 - value1) / value1) * 100;
 
 const TransformStep = ({
   transform,

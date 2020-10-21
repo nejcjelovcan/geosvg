@@ -1,19 +1,15 @@
 import React, { Fragment } from "react";
+import Change from "./Change";
 import styles from "./DescriptionDetails.module.css";
+import classNames from "classnames";
 
 export type DescriptionDetailsProps = {
   items: [string, string, number | undefined][];
+  vertical?: boolean;
 };
 
-const Change = ({ amount }: { amount: number }) => (
-  <span className={amount > 0 ? styles.changeUp : styles.changeDown}>
-    {" "}
-    {amount.toFixed(0)}%
-  </span>
-);
-
-const DescriptionDetails = ({ items }: DescriptionDetailsProps) => (
-  <dl className={styles.dl}>
+const DescriptionDetails = ({ items, vertical }: DescriptionDetailsProps) => (
+  <dl className={classNames(styles.dl, { [styles.vertical]: vertical })}>
     {items.map(([term, details, change]) => (
       <Fragment key={term}>
         <dt>{term}</dt>
