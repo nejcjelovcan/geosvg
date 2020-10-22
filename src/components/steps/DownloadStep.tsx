@@ -27,7 +27,7 @@ const DownloadStep = () => {
     <section className={cardStyles.card}>
       <div className={buttonStyles.group}>
         <button
-          className={classNames(buttonStyles.button, buttonStyles.selected)}
+          className={classNames(buttonStyles.button)}
           onClick={() => saveAs(blob, `${unit}.svg`)}
         >
           <span role="img" aria-label="Save icon">

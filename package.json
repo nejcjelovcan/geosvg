@@ -36,6 +36,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint --ext js,ts,tsx src",
+    "verify:lint": "eslint --ext js,ts,tsx src --max-warnings=0",
+    "verify:tsc": "tsc",
+    "verify": "yarn verify:lint && yarn verify:tsc",
     "download-geojson": "scripts/download-geojson.sh",
     "generate-units": "mkdir -p public/data && ts-node --project scripts/tsconfig.script.json scripts/generate-units.ts",
     "deploy": "dotenv -e .env.local serverless deploy -- --verbose"

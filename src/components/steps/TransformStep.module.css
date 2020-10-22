@@ -1,4 +1,5 @@
 .arrow {
+  display: none;
   color: #888;
   float: right;
   position: relative;
@@ -24,4 +25,10 @@
 
 .settingsPair > input {
   margin-right: 0.5rem;
+}
+
+@media (min-width: 40rem) {
+  .arrow {
+    display: block;
+  }
 }

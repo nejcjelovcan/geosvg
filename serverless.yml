@@ -28,6 +28,7 @@ custom:
       - "/*"
 
   assets:
+    uploadConcurrency: 10
     auto: true
     targets:
       - bucket: ${self:custom.siteName}
@@ -35,18 +36,30 @@ custom:
           - source: ./build/
             globs:
               - "**/*.html"
-              - "**/*.json"
               - "**/*.txt"
+            headers:
+              CacheControl: max-age=86400
 
       - bucket: ${self:custom.siteName}
+        prefix: data
         files:
-          - source: ./build/
+          - source: ./build/data/
+            globs:
+              - "**/*.json"
+            headers:
+              CacheControl: max-age=604800
+
+      - bucket: ${self:custom.siteName}
+        prefix: static
+        files:
+          - source: ./build/static/
             globs:
               - "**/*.css"
               - "**/*.js"
+              - "**/*.LICENSE.txt"
 
             headers:
-              CacheControl: max-age=86400
+              CacheControl: max-age=604800
 
 resources:
   Resources:

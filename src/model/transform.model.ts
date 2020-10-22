@@ -39,7 +39,7 @@ export const TRANSFORMS_PRESET: Transform[] = [
 export const TRANSFORM_DISPLAY = {
   loadGeojson: "Load GeoJSON",
   simplify: "Simplify polygons",
-  scaleViewBox: "Scale and round viewBox",
+  scaleViewBox: "Scale and round",
   zeroOrigin: "Set origin to 0,0",
 };
 
