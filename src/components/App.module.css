@@ -1,17 +1,28 @@
 .container {
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  height: 100vh;
   z-index: 10;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  height: 100vh;
 }
 
 .sidebar {
-  padding: 1rem 1.5rem 1rem 1rem;
-  flex-basis: 20rem;
+  padding: 1rem;
   background-color: lightgray;
   z-index: 10;
   user-zoom: fixed;
-  overflow-y: auto;
   box-shadow: 0.1rem 0px 0.5rem 0px rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+  flex: 1;
+}
+
+@media (min-width: 40rem) {
+  .container {
+    flex-direction: row;
+  }
+  .sidebar {
+    padding: 1rem 1.5rem 1rem 1rem;
+    flex-basis: 20rem;
+    flex-grow: 0;
+  }
 }
